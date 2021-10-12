@@ -1,0 +1,30 @@
+﻿
+==
+- Configuration file
+ - Send the phn , notify that the test result is ready,test serial,the patient code
+   => generate the report
+
+ - Send the the test Result
+
+
+
+
+ Authorization :
+  - authorization of this software maybe done by a key & hash of the current date with hour
+
+
+  -- What to do inside the Service :
+	- Check if the DB Server Connected
+	- Check if there is a new notification msgs
+	- check if the gateway connected 
+	- Send the messages 
+	- when get the response 
+	  update the msgs statuess
+
+ - Confugurations Data:
+  - ConnectionString
+  - TAbleNAme
+  - primaryKey columnName
+  - flag columnName
+  - phn Column
+  - 
